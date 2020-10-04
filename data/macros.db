@@ -1,0 +1,3 @@
+{"_id":"EIyMNql4p0Hf4l5Q","name":"New Macro","permission":{"default":0,"R5RhM0WGGcLyog2Y":3},"type":"script","sort":100001,"flags":{},"scope":"global","command":"@{npc_iniciativa}","author":"R5RhM0WGGcLyog2Y","img":"icons/svg/dice-target.svg","actorIds":[]}
+{"_id":"f6i1RkTJGcQAfAgN","name":"REGIK TOMA AGUA","permission":{"default":0,"3UQyOK20Dn4h0irQ":3},"type":"chat","sort":100001,"flags":{},"scope":"global","command":"/r 1d20","author":"3UQyOK20Dn4h0irQ","img":"icons/svg/dice-target.svg","actorIds":[]}
+{"_id":"mtsEJvVr0BUFYBsB","name":"6d6","permission":{"default":0,"R5RhM0WGGcLyog2Y":3},"type":"chat","sort":100001,"flags":{},"scope":"global","command":"/r 6d6cs>3","author":"R5RhM0WGGcLyog2Y","img":"icons/svg/dice-target.svg","actorIds":[]}
