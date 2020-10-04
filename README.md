@@ -2,7 +2,7 @@
 
 Ficha de Degenesis hecha en Sandbox para Foundry VTT
 
-**IMPORTANTE:** Necesitas tener instalado el sistema '[sandbox](https://gitlab.com/rolnl/sandbox-system-builder/-/tree/master)' instalado en Foundry. Una vez instalado, inserta la URL de este ([World.json](https://raw.githubusercontent.com/Damaskian/Foundry-Degenesis/main/world.json)) en Foundry VTT > Game Worlds > Install World > Manifest URL: LINK
+**IMPORTANTE:** Necesitas tener instalado el sistema '[sandbox](https://gitlab.com/rolnl/sandbox-system-builder/-/tree/master)' en Foundry. Una vez instalado, inserta la URL de este ([World.json](https://raw.githubusercontent.com/Damaskian/Foundry-Degenesis/main/world.json)) en Foundry VTT > Game Worlds > Install World > Manifest URL: LINK
 
 Gracias Seregras ([@Rol_NL](https://twitter.com/Rol_NL)) por crear semejante herramienta con la que perder la cabeza haciendo fichas para los que no sabemos programar.
 
