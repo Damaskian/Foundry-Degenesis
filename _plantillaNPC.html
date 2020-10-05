@@ -111,19 +111,19 @@
                     <div class="new-row">
                         <div class="flexblock-left">
                             <label class="label-medlarge">Bar 1</label>
-                            <input class="token-bar1" type="text" name="data.tokenbar1" value="{{data.tokenbar1}}" tkvalue="@{npc_trauma_info}">
+                            <input class="token-bar1" type="text" name="data.tokenbar1" value="{{data.tokenbar1}}" tkvalue="">
                         </div>
                     </div>
                     <div class="new-row">
                         <div class="flexblock-left">
                             <label class="label-medlarge">Shield Stat</label>
-                            <input class="token-shieldstat" type="text" name="data.shieldstat" value="{{data.shieldstat}}" tkvalue="@{npc_heridas_info}">
+                            <input class="token-shieldstat" type="text" name="data.shieldstat" value="{{data.shieldstat}}" tkvalue="">
                         </div>
                     </div>
                     <div class="new-row">
                         <div class="flexblock-left">
                             <label class="label-medlarge">Display Name</label>
-                            <select class="token-displayName" name="data.displayName" data-type="String" tkvalue="OWNER">
+                            <select class="token-displayName" name="data.displayName" data-type="String" tkvalue="NONE">
                                 {{#select actor.data.displayName}}
                                 <option value="NONE">NONE</option>
                                 <option value="CONTROL">CONTROL</option>
