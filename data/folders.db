@@ -11,9 +11,11 @@
 {"name":"Hab_Agilidad","type":"Item","sort":1600000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"9g5Aub1204nD2I4f"}
 {"_id":"9zpAqVNjYXNiXkQy","name":"Comunes","type":"Item","sort":100000,"flags":{},"parent":"aJKfHbURsJd0360L","color":""}
 {"_id":"A55vqG6aqAt27FWP","name":"_Plantilla NPC","type":"Item","sort":100000,"flags":{},"parent":null,"color":"#c0c0c0"}
+{"_id":"AQ2zyYS5p7Iz7vvE","name":"Escudos","type":"Item","sort":3750000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"_id":"Am86dpvZjpJMTHH1","name":"Protecciones","type":"Item","sort":3500000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Spitalianos","type":"Item","sort":6500000,"flags":{},"parent":"PeYK8m4TOM7DvRwc","color":"","_id":"CAhhVLWLDvN2pu67"}
 {"name":"_Origen","type":"Item","sort":2200000,"flags":{},"parent":"qLjZPYFCRM8W4UcB","color":"","_id":"DW98M0Iqn15wCJnT"}
+{"name":"Defensa Pasiva","type":"Item","sort":6900000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"ETZvdI3Cl8lbwNQB"}
 {"name":"Info","type":"Item","sort":4700000,"flags":{},"parent":"GTztXr5eNzvTBeC2","color":"","_id":"G5uJibXNkOh5TDFS"}
 {"_id":"GTztXr5eNzvTBeC2","name":"_Panels","type":"Item","sort":300000,"flags":{},"parent":"A55vqG6aqAt27FWP","color":""}
 {"name":"Plantillas","type":"Item","sort":4000000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":"","_id":"JSLnuDZrZBK2ROkZ"}
@@ -37,7 +39,9 @@
 {"name":"Explosivos","type":"Item","sort":6100000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":"","_id":"SiHpwVuJlAjAIYc3"}
 {"_id":"T3YjrzyIDa10Hfzr","name":"_cItems","type":"Item","sort":900000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"name":"Armas NPCs","type":"Item","sort":5000000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":"","_id":"VtR6E2RFiFydVM7C"}
+{"name":"P. Equipo","type":"Item","sort":7300000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"Vzt2A7Ji2teR04uF"}
 {"name":"Hab_Psique","type":"Item","sort":1900000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"WFyX3PF9fpDkJV1W"}
+{"name":"Inventario","type":"Item","sort":7100000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"WsQ0lfOZMosg9Yhb"}
 {"_id":"XMKHWxxhYD1WTmdN","name":"Cualidades de las Protecciones","type":"JournalEntry","sort":100000,"flags":{},"parent":"KbZJzMYwssNKfjUk","color":""}
 {"name":"Hab_Instinto","type":"Item","sort":2000000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"XaI4GQsr4db2ZXQx"}
 {"name":"Enemigos","type":"Actor","sort":300000,"flags":{},"parent":null,"color":"","_id":"XsS7JcjX54zSqV2W"}
@@ -51,6 +55,7 @@
 {"name":"Grupos","type":"Item","sort":2600000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"dilKC97a4foeUxrd"}
 {"name":"Combate","type":"Item","sort":2900000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"eBRw5lTqIol311K9"}
 {"_id":"gBq8RsWIlV8VYJaP","name":"Pelea","type":"Item","sort":3900000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":""}
+{"_id":"hKMXtk55aYiIBHgh","name":"Alimentos y Trampas","type":"Item","sort":3875000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"P. Rangos","type":"Item","sort":6400000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"hQXoGJanbYcq3cwH"}
 {"name":"Armas Pesadas","type":"Item","sort":6000000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":"","_id":"hUn3VXyC6NfklVnM"}
 {"_id":"ha00ivMlCjb4hCIT","name":"Tablas","type":"Item","sort":4800000,"flags":{},"parent":"GTztXr5eNzvTBeC2","color":""}
@@ -60,14 +65,43 @@
 {"name":"Hab_Intelecto","type":"Item","sort":1800000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"ltQHe8fZ5nOegAwV"}
 {"_id":"nFZ2SjccuRF4h8Le","name":"P. Armas","type":"Item","sort":2700000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":""}
 {"_id":"oecnRCnwN6Ymq4GS","name":"Plantillas","type":"Actor","sort":100000,"flags":{},"parent":null,"color":""}
+{"name":"P. Trampas","type":"Item","sort":7200000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"ogaoeygRPylWbC8H"}
 {"_id":"qLjZPYFCRM8W4UcB","name":"_Origen y Salud","type":"Item","sort":800000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"name":"Concentración/Primordial y Fe/Voluntad","type":"Item","sort":3600000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"qP4Jwsp6i3JjjbRi"}
 {"_id":"r5uz3j0m4eBeS86k","name":"_Panels","type":"Item","sort":200000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"name":"Defensa Activa","type":"Item","sort":3300000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"syNado6rCXpwyl7i"}
 {"_id":"t1epVGb7aPHRDMpM","name":"_Plantilla PJ","type":"Item","sort":0,"flags":{},"parent":null,"color":"#c0c0c0"}
 {"_id":"tHQtAKiuQlKbCA3a","name":"Protecciones NPCs","type":"Item","sort":5100000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
+{"name":"P. Escudos","type":"Item","sort":7000000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"vW0WIqu3oOscpFS8"}
 {"name":"Spitalianos","type":"Item","sort":6800000,"flags":{},"parent":"OsPeNC7o6V8hfxzC","color":"","_id":"wSyZMva0gJCkqx7m"}
 {"name":"P. Potenciales","type":"Item","sort":3800000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"wk02pRRPhNNeHoJs"}
 {"name":"Armas","type":"Item","sort":3100000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":"","_id":"xrTuUsvCUGH0qIGq"}
 {"name":"DM","type":"Item","sort":3700000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"zZp5vSYouGFYliUi"}
 {"_id":"zhjDeP3MsNA8QYWH","name":"Armas Arrojadizas","type":"Item","sort":4075000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":""}
+{"name":"P. Módulos","type":"Item","sort":7400000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"bw0ZXbUPy9oXe9RK"}
+{"$$deleted":true,"_id":"bw0ZXbUPy9oXe9RK"}
+{"$$deleted":true,"_id":"Vzt2A7Ji2teR04uF"}
+{"name":"Módulos","type":"Item","sort":7300000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":"","_id":"RTA4Bl3vwfyPoDVz"}
+{"_id":"RTA4Bl3vwfyPoDVz","name":"Módulos","type":"Item","sort":3937500,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"_id":"PeYK8m4TOM7DvRwc","name":"Rangos","type":"Item","sort":600000,"flags":{},"parent":null,"color":""}
+{"_id":"PeYK8m4TOM7DvRwc","name":"Rangos","type":"Item","sort":150000,"flags":{},"parent":null,"color":""}
+{"_id":"PeYK8m4TOM7DvRwc","name":"Rangos","type":"Item","sort":150000,"flags":{},"parent":null,"color":"#c0c0c0"}
+{"_id":"PeYK8m4TOM7DvRwc","name":"Rangos","type":"Item","sort":150000,"flags":{},"parent":null,"color":"#ffffff"}
+{"_id":"PeYK8m4TOM7DvRwc","name":"Rangos","type":"Item","sort":150000,"flags":{},"parent":null,"color":"#8000ff"}
+{"_id":"1bsUOevWyj3QDXtL","name":"Compendio NPCs","type":"Item","sort":6600000,"flags":{},"parent":"PeYK8m4TOM7DvRwc","color":"#0000a0"}
+{"_id":"1bsUOevWyj3QDXtL","name":"Compendio NPCs","type":"Item","sort":400000,"flags":{},"parent":null,"color":"#0000a0"}
+{"_id":"1bsUOevWyj3QDXtL","name":"Compendio NPCs","type":"Item","sort":125000,"flags":{},"parent":null,"color":"#0000a0"}
+{"name":"Equipos","type":"Item","sort":7300000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":"","_id":"MsRHu0lkHCXoZsZP"}
+{"_id":"MsRHu0lkHCXoZsZP","name":"Equipos","type":"Item","sort":3906250,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"_id":"MsRHu0lkHCXoZsZP","name":"Equipos","type":"Item","sort":3812500,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"_id":"hKMXtk55aYiIBHgh","name":"Alimentos y Trampas","type":"Item","sort":3781250,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"_id":"MsRHu0lkHCXoZsZP","name":"Equipos","type":"Item","sort":3765625,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"_id":"hKMXtk55aYiIBHgh","name":"Alimentos y Trampas","type":"Item","sort":100000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":""}
+{"name":"Fuentes de Luz/Fuego","type":"Item","sort":7300000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"fY58wpOeJihengmj"}
+{"name":"Orientación/Rastreo","type":"Item","sort":7400000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"mDkaK8rzxFyX8mb1"}
+{"name":"Escalada","type":"Item","sort":7500000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"XtSKDoldPty2kLyK"}
+{"name":"Pernoctar","type":"Item","sort":7600000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"tMNjyxA8GQTnRZ2N"}
+{"name":"Transporte","type":"Item","sort":7700000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"DwtkMsDrqvMVUGtR"}
+{"name":"En las sombras","type":"Item","sort":7800000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"PhfSD1VgNqdSMduX"}
+{"name":"Tecnología","type":"Item","sort":7900000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"YHTV7ujKgYvsXh8H"}
+{"name":"Discos Solares","type":"Item","sort":8000000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"0HdAvoH5FYpo7ZCR"}
