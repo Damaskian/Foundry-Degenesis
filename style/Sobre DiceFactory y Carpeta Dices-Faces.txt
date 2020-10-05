@@ -1,0 +1,4 @@
+- Instala el módulo: 'Dice So Nice'
+- Actívalo en tu mundo.
+- Copia el archivo 'DiceFactory.js' en FoundryVTT\Data\modules\dice-so-nice\
+- Dentro de Foundry, eliges el dado Degenesis.
