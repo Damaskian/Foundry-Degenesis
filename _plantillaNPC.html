@@ -1,0 +1,162 @@
+<form class="{{cssClass}}" autocomplete="off" id="sheet">
+    {{!-- Sheet Header --}}
+    <header class="sheet-header">
+        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100">
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name"></h1>
+            <div class="flexblock-left ">
+                <div class="col-1-2">
+                    {{#if actor.data.istemplate}}
+                    {{else}}
+                    <div class="flexblock-left">
+                        <label class="label-free boldtext">MOD</label>
+                        <input class="input-min" type="text" name="data.mod" value="{{data.mod}}">
+
+                        {{#advShow}}
+                        <a class="roll-mode boldtext" title="Roll mode"><i>{{data.rollmode}}</i></a>
+                        {{/advShow}}
+
+                        {{#showRoller}}
+                        <a class="roll-free" title="Roll mode"><i class="fas fa-dice-d20"></i></a>
+                        {{/showRoller}}
+
+                        {{#if actor.data.selector}}
+                        <a class="mod-selector" title="Select Options"><i class="fas fa-exclamation-circle fa-2x"></i></a>
+                        {{/if}}
+                    </div>
+                    {{/if}}
+                </div>
+
+                <div class="rightblock">
+                    {{#if actor.data.istemplate}}
+                    {{else}}
+                    {{#isGM}}
+                    <select class="selectsheet" name="data.gtemplate" data-type="String">
+                        <!--
+{{#select actor.data.gtemplate}}
+{{#each data.sheets as |gtemplate id|}}
+<option  value="{{gtemplate}}">{{gtemplate}}</option>
+{{/each}}
+{{/select}}
+-->
+                    </select>
+                    {{/isGM}}
+                    {{/if}}
+                    {{#isGM}}
+
+
+                    <h3 class="rightblock-element">Template</h3>
+                    <input class="check-istemplate" name="data.istemplate" id="check-istemplate" type="checkbox" {{checked actor.data.istemplate}}="">
+
+
+                    {{/isGM}}
+
+                    {{#if actor.data.istemplate}}
+                    <h3 class="rightblock-element-tag">Rebuild Sheet</h3>
+                    <a class="rightblock-element item-refresh" title="Rebuild Sheet"><i class="fas fa-sync"></i></a>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </header>
+
+    {{!-- Sheet Tab Navigation --}}
+    <div class="atabs">
+        <a class="tab-prev" id="tab-prev">❮</a>
+        <nav class="sheet-tabs tabs" data-group="primary" id="tabs" tabs="1">
+
+            <a class="item tab-button" data-tab="description" id="tab-0">Bio</a>          
+            <a class="item tab-button" id="tab-1" data-tab="perfil_combate">Perfil de Combate</a><a style="display: none" id="tab-last"></a>
+            {{#isGM}}
+            <a class="item tab-button" data-tab="citems" id="tab-citems">cItems</a>
+            {{#if actor.data.istemplate}}
+            <a class="item tab-button" data-tab="token" id="tab-token">Token</a>
+            <a class="item tab-button" data-tab="config" id="tab-tabs">Tabs</a>
+            {{/if}}
+            {{/isGM}}
+
+        </nav>
+        <a class="tab-next" id="tab-next">❯</a>
+    </div>
+
+    {{!-- Sheet Body --}}
+    <section class="sheet-body" id="sheet-body">
+
+        {{!-- Biography Tab --}}
+        <div class="tab biography active scrollable" data-group="primary" data-tab="description">
+            {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}
+        </div>
+
+        {{#if actor.data.istemplate}}
+        {{!-- SheetTabs Tab --}}
+        <div class="tab properties" data-group="primary" data-tab="config">
+            <ol class="properties-list">
+                {{#each data.tabs as |tab id|}}
+                <li class="property flexrow" data-item-id="{{id}}">
+                    <h4 class="property-name">{{tab.name}}</h4>
+                    <div class="property-row">
+                        <a class="property-controls item-top" title="Top Item"><i class="fas fa-arrow-alt-circle-up"></i></a>
+                        <a class="property-controls item-bottom" title="Bottom Item"><i class="fas fa-arrow-alt-circle-down"></i></a>
+                        <a class="property-control item-edit" title="Edit Tab"><i class="fas fa-edit"></i></a>
+                        <a class="property-control item-delete" title="Delete Tab"><i class="fas fa-trash"></i></a>
+                    </div>
+                </li>
+                {{/each}}
+            </ol>
+        </div>
+        {{!-- Token Tab --}}
+        <div class="tab token scrollable" data-group="primary" data-tab="token">
+            <div class="flexblock">
+                <div class="col-1-2">
+                    <div class="new-row">
+                        <div class="flexblock-left">
+                            <label class="label-medlarge">Bar 1</label>
+                            <input class="token-bar1" type="text" name="data.tokenbar1" value="{{data.tokenbar1}}" tkvalue="">
+                        </div>
+                    </div>
+                    <div class="new-row">
+                        <div class="flexblock-left">
+                            <label class="label-medlarge">Shield Stat</label>
+                            <input class="token-shieldstat" type="text" name="data.shieldstat" value="{{data.shieldstat}}" tkvalue="">
+                        </div>
+                    </div>
+                    <div class="new-row">
+                        <div class="flexblock-left">
+                            <label class="label-medlarge">Display Name</label>
+                            <select class="token-displayName" name="data.displayName" data-type="String" tkvalue="NONE">
+                                {{#select actor.data.displayName}}
+                                <option value="NONE">NONE</option>
+                                <option value="CONTROL">CONTROL</option>
+                                <option value="OWNER_HOVER">OWNER HOVER</option>
+                                <option value="HOVER">HOVER</option>
+                                <option value="OWNER">OWNER</option>
+                                <option value="ALWAYS">ALWAYS</option>
+                                {{/select}}
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {{/if}}
+
+        {{!-- cItems Tab --}}
+        <div class="tab citems scrollable" data-group="primary" data-tab="citems">
+            <ol class="properties-list">
+                {{#each data.citems as |citem cid|}}
+                <li class="property flexrow" data-item-id="{{cid}}">
+                    <h4 class="property-name">{{citem.name}}</h4>
+                    <div class="property-row">
+                        <a class="property-control citem-edit" title="Edit cItem"><i class="fas fa-edit"></i></a>
+                        <a class="property-control citem-delete" citemid="{{citem.id}}" title="Delete cItem"><i class="fas fa-trash"></i></a>
+                    </div>
+                </li>
+                {{/each}}
+            </ol>
+        </div>
+
+
+
+    <div class="tab scrollable perfil_combate_tab" id="perfil_combate_Def" data-group="primary" data-tab="perfil_combate"><div class="new-column" id="perfil_combateBody"><div class="new-block" id="perfil_combaterow0"><div class="col-1-3"><div class="panelheader">Características</div><div class="new-row"><div class="flexblock-center"><h3 class="centertext label-med boldtext" id="npc_ego" attid="eDLW3qfpLNehKoj0">Ego</h3><input name="data.attributes.npc_ego.value" value="{{data.attributes.npc_ego.value}}" type="text" class="input-min npc_ego" attid="eDLW3qfpLNehKoj0"><h3 class="centertext label-med boldtext" id="npc_heridas" attid="mUiEQKqBZ2iumCLW">Heridas</h3><input name="data.attributes.npc_heridas.value" value="{{data.attributes.npc_heridas.value}}" type="text" class="input-min npc_heridas inputGM" attid="mUiEQKqBZ2iumCLW"></div><div class="flexblock-center"><h3 class="centertext label-med boldtext" id="npc_trauma" attid="W0vZDMR8kVObtQvl">Trauma</h3><input name="data.attributes.npc_trauma.value" value="{{data.attributes.npc_trauma.value}}" type="text" class="input-min npc_trauma" attid="W0vZDMR8kVObtQvl"></div></div></div><div class="col-2-3"><div class="panelheader">Info</div><div class="new-row"><div class="flexblock-center"><h3 class="centertext label-med boldtext" id="all_mod_npc" attid="WUXhsRbxir2fmIIh">Modificador</h3><input name="data.attributes.all_mod_npc.value" value="{{data.attributes.all_mod_npc.value}}" type="text" class="input-min all_mod_npc" attid="WUXhsRbxir2fmIIh"><h3 class="centertext label-med boldtext rollable" id="npc_iniciativa" attid="j9puUY1eQQDkgeEo">Iniciativa</h3><input name="data.attributes.npc_iniciativa.value" value="{{data.attributes.npc_iniciativa.value}}" type="text" class="input-min npc_iniciativa" attid="j9puUY1eQQDkgeEo"><h3 class="centertext label-med boldtext" id="npc_valor_proteccion_total" attid="YwFRhneAOE5syTTI">V.P</h3><input name="data.attributes.npc_valor_proteccion_total.value" value="{{data.attributes.npc_valor_proteccion_total.value}}" type="text" class="input-min input-disabled npc_valor_proteccion_total inputGM" readonly="true" attid="YwFRhneAOE5syTTI"></div><div class="flexblock-center"><h3 class="centertext label-med boldtext" id="npc_heridas_info" attid="1YbYKMkxwT44PonF">Heridas</h3><input name="data.attributes.npc_heridas_info.value" value="{{data.attributes.npc_heridas_info.value}}" type="text" class="input-ahalf  npc_heridas_info inputGM" attid="1YbYKMkxwT44PonF"><input type="text" class="input-bhalf input-disabled inputGM npc_heridas_info.max" name="data.attributes.npc_heridas_info.max" value="{{data.attributes.npc_heridas_info.max}}"><h3 class="centertext label-med boldtext" id="npc_trauma_info" attid="DA88AbJG1vb3qQ9O">Trauma</h3><input name="data.attributes.npc_trauma_info.value" value="{{data.attributes.npc_trauma_info.value}}" type="text" class="input-ahalf  npc_trauma_info inputGM" attid="DA88AbJG1vb3qQ9O"><input type="text" class="input-bhalf input-disabled inputGM npc_trauma_info.max" name="data.attributes.npc_trauma_info.max" value="{{data.attributes.npc_trauma_info.max}}"></div></div></div></div><div class="new-block" id="perfil_combaterow1"><div class="col-1-1"><div class="panelheader">Combate</div></div></div><div class="new-block" id="perfil_combaterow2"><div class="col-1-2"><div class="new-row"><div class="flexblock-left"><h3 class="centertext label-free" id="npc_esquivar_texto" attid="d9DAJQFFGiPriLva"></h3><input name="data.attributes.npc_esquivar_texto.value" value="{{data.attributes.npc_esquivar_texto.value}}" type="text" class="input-free npc_esquivar_texto inputGM" attid="d9DAJQFFGiPriLva"><h3 class="centertext label-small rollable" id="npc_esquivar_boton" attid="BWApyRDZWX8HM7EB"><div title=""><i class="fas fa-dice-d20"></i></div></h3><input name="data.attributes.npc_esquivar_boton.value" value="{{data.attributes.npc_esquivar_boton.value}}" type="text" class="input-min npc_esquivar_boton" attid="BWApyRDZWX8HM7EB"></div></div></div><div class="col-1-2"><div class="new-row"><div class="flexblock-left"><h3 class="centertext label-free" id="npc_pelea_texto" attid="BENgUO5cE4ysfgJo"></h3><input name="data.attributes.npc_pelea_texto.value" value="{{data.attributes.npc_pelea_texto.value}}" type="text" class="input-free npc_pelea_texto inputGM" attid="BENgUO5cE4ysfgJo"><h3 class="centertext label-small rollable" id="npc_pelea_boton" attid="CmJGBiTWuXiTxPye"><div title=""><i class="fas fa-dice-d20"></i></div></h3><input name="data.attributes.npc_pelea_boton.value" value="{{data.attributes.npc_pelea_boton.value}}" type="text" class="input-min npc_pelea_boton" attid="CmJGBiTWuXiTxPye"></div></div></div></div><div class="new-block" id="perfil_combaterow3"><div class="col-1-2"><div class="new-row"><div class="flexblock-left"><h3 class="centertext label-free" id="npc_cac_texto" attid="KwVZ7BpPr9qETX4G"></h3><input name="data.attributes.npc_cac_texto.value" value="{{data.attributes.npc_cac_texto.value}}" type="text" class="input-free npc_cac_texto inputGM" attid="KwVZ7BpPr9qETX4G"><h3 class="centertext label-small rollable" id="npc_cac_boton" attid="MEpKuQADiO005LDj"><div title=""><i class="fas fa-dice-d20"></i></div></h3><input name="data.attributes.npc_cac_boton.value" value="{{data.attributes.npc_cac_boton.value}}" type="text" class="input-min npc_cac_boton" attid="MEpKuQADiO005LDj"></div></div></div><div class="col-1-2"><div class="new-row"><div class="flexblock-left"><h3 class="centertext label-free" id="npc_mental_texto" attid="mySmSYoHsGngCbtH"></h3><input name="data.attributes.npc_mental_texto.value" value="{{data.attributes.npc_mental_texto.value}}" type="text" class="input-free npc_mental_texto inputGM" attid="mySmSYoHsGngCbtH"><h3 class="centertext label-small rollable" id="npc_mental_boton" attid="Crpcz6OYKK8Qz8So"><div title=""><i class="fas fa-dice-d20"></i></div></h3><input name="data.attributes.npc_mental_boton.value" value="{{data.attributes.npc_mental_boton.value}}" type="text" class="input-min npc_mental_boton" attid="Crpcz6OYKK8Qz8So"></div></div></div></div><div class="new-block" id="perfil_combaterow4"><div class="col-1-2"><div class="panelheader">Especialidad</div><div class="table-row"><div class="flexblock-center"><table class="table-free npc_tabla_especialidad" name="data.attributes.npc_tabla_especialidad" value="{{data.attributes.npc_tabla_especialidad.value}}" attid="wdIQhl2R8FfGamLt"><thead><tr><th class="label-large">Item</th><th class="label-free"></th><th class="input-min">Dados</th><th class="cell-empty"></th></tr></thead><tbody class="table" id="wdIQhl2R8FfGamLt"></tbody></table></div></div></div><div class="col-1-2"><div class="panelheader">Especial</div><div class="table-row"><div class="flexblock-center"><table class="table-free npc_tabla_equipo_especial" name="data.attributes.npc_tabla_equipo_especial" value="{{data.attributes.npc_tabla_equipo_especial.value}}" attid="7OXfrCHtcOKd5tLu"><thead><tr><th class="label-large">Item</th><th class="cell-empty"></th></tr></thead><tbody class="table" id="7OXfrCHtcOKd5tLu"></tbody></table></div></div></div></div><div class="new-block" id="perfil_combaterow5"><div class="col-1-1"><div class="panelheader">Ataques</div><div class="table-row"><div class="flexblock-center"><table class="table-free npc_tabla_ataques" name="data.attributes.npc_tabla_ataques" value="{{data.attributes.npc_tabla_ataques.value}}" attid="aXweL4HAS4OfTmhi"><thead><tr><th class="label-large">Item</th><th class="label-free">Cualidad</th><th class="label-med">Ataque</th><th class="input-min">D.A</th><th class="label-free"></th><th class="input-min">Daño</th><th class="input-min">+</th><th class="cell-empty"></th></tr></thead><tbody class="table" id="aXweL4HAS4OfTmhi"></tbody></table></div></div></div></div><div class="new-block" id="perfil_combaterow6"><div class="col-1-1"><div class="panelheader">Protecciones</div><div class="table-row"><div class="flexblock-center"><table class="table-free npc_tabla_protecciones" name="data.attributes.npc_tabla_protecciones" value="{{data.attributes.npc_tabla_protecciones.value}}" attid="SkcMQ4wB4skYSeuy"><thead><tr><th class="label-large">Item</th><th class="label-free">Cualidad</th><th class="input-min">V.P</th><th class="cell-empty"></th></tr></thead><tbody class="table" id="SkcMQ4wB4skYSeuy"></tbody></table></div></div></div></div><div class="new-block" id="perfil_combaterow7"><div class="col-1-1"><div class="panelheader">Anotaciones</div><div class="new-row"><div class="flexblock-center"><h3 class="centertext label-free" id="campo_texto_npc" attid="DESYnj9sc1XWtajh"></h3><textarea class="texteditor-med campo_texto_npc" name="data.attributes.campo_texto_npc.value" attid="DESYnj9sc1XWtajh">{{data.attributes.campo_texto_npc.value}}</textarea></div></div></div></div></div></div></section>
+</form>

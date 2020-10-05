@@ -1,0 +1,291 @@
+/* Font Families Initialization! Add more here before you use */
+@font-face {
+  font-family: Avenir;
+  src:url(fonts/Avenir.ttc);
+}
+
+/* Font control of general text */
+body {
+  font-family: "Avenir", sans-serif;
+  font-size: 14px;
+}
+
+/* Font and color control for Panel Headers */
+.sandbox.sheet .panelheader {
+  font-family: Avenir, sans-serif;
+  font-size: 14px;
+  /* Background color for panel header */
+  background: url(fondosidebar.jpg);
+}
+
+/* Character sheet background and Font Color */
+.window-app .window-content {
+  color: #000000;
+  /* Replace here with a URL from the ewb to an image you like for a background */
+  /* Image should be sized on about 720p and not be too heavy */
+  background: white;
+}
+
+/* Character sheet input text background color */
+.sandbox.sheet .flexblock-left input{
+  font-family: Avenir, sans-serif;
+  font-size: 12px;
+  background-color: #e4e7e7;
+}
+
+/* Character sheet table header colors */
+.sandbox.sheet thead{
+  background-color: #000000;
+}
+
+/* Character sheet empty table cell colors */
+.sandbox.sheet tr.empty-row {
+  background-color:#C0C0C0;
+}
+
+/* Inputs control in character sheet */
+.sandbox.sheet .flexblock-left input {
+	font-family: Avenir, sans-serif;
+  font-size: 12px;
+  background-color:#ffffff;
+}
+
+/* Table Body */
+tbody.table {
+  background-color: #e5e5e6;
+}
+
+/* Table cells */
+.sandbox.sheet td {
+  font-family: Avenir, sans-serif;
+  font-size: 14px;
+}
+
+/* Labels stuff */
+.sandbox.sheet .label-free {
+	font-family: Avenir, sans-serif;
+  font-size:13px;
+}
+
+/* Tabs in sheets! */
+.sandbox.sheet .tabs .item {
+	font-family: Avenir, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.sandbox.sheet .flexblock-center input{
+    font-family: Avenir, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color:#ffffff;
+    padding: 2px 0px;
+}
+
+/* Icono de quitar*/
+.fa-times-circle:before {
+    content: "\f146";
+}
+/*Icono rellenado*/
+.fa-circle:before {
+    content: "\f0c8";
+}
+/*Icono vacío*/
+.fa-circle:before {
+    content: "\f0c8";
+}
+/*Fondo de chat */
+#chat-log .message {
+    background: url(fondochat.jpg) repeat;
+    border: 2px solid #6f6c66;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    color: #191813;
+    font-size: 14px;
+}
+/* Fuente de Chat */
+.roll-sender-name {
+    font-family: Avenir, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+}
+
+.roll-flavor {
+    font-family: Avenir, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin-top: -15px;
+}
+
+.roll-result {
+    font-family: Avenir, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+    padding: 5px 5px;
+    height: 70px;
+}
+
+.roll-wbutton {
+    font-family: Avenir, sans-serif;
+    font-size: 10px;
+    color: blue;
+    font-style: italic;
+    text-align: left;
+    padding: 0px 0px;
+}
+
+.roll-user {
+    font-family: Avenir, sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+    width: 100%;
+    padding: 0px 5px;
+}
+
+.label-roll {
+    font-family: Avenir, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+}
+
+.roll-formula {
+    font-family: Avenir, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+}
+/*Icono de Dado*/
+.fa-dice-d20:before {
+    content: "\f522";
+}
+
+/*Fondo de Chat*/
+#chat-form textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background: url(fondochat.jpg) repeat;
+}
+
+/*Pestaña activa*/
+#sidebar-tabs > .item.active {
+    color: #FFF;
+    border: 1px solid red;
+    border-bottom: none;
+    box-shadow: 0 0 6px inset #cc0000;
+}
+
+#sidebar-tabs {
+    flex: 0 0 32px;
+    box-sizing: border-box;
+    margin: 0 0 5px;
+    border-bottom: 1px solid #cc0000;
+    box-shadow: 0 0 10px red;
+}
+
+::-webkit-scrollbar-thumb {
+    outline: none;
+    border-radius: 3px;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+/*Iconos de Sidebar*/
+.app {
+    ;
+    color: #ffffff;
+
+}
+
+/*Public Roll Chat*/
+select {
+    border: 1px solid #ffffff;
+}
+
+/*Color Public Roll Chat*/
+#chat-controls div.roll-type-select select {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/*Cambiando Logo*/
+#logo {
+    content: url(logo.png);
+	top: 5px;
+}
+
+/*Textura Sidebar*/
+#sidebar {
+        background: url(fondosidebar.jpg);
+}
+
+/* Area de texto*/
+.sandbox.sheet .texteditor-med {
+    height: 140px;
+    resize: vertical;
+    padding: 4px 5px;
+    font-family: Avenir, sans-serif;
+}
+
+/* Cambiando texto de tabla*/
+.label-large {
+	visibility: hidden;
+}
+.label-large:after{
+	visibility: visible;
+	content:'Nombre';
+	font-family: Avenir, sans-serif;
+}
+.sandbox.sheet table.table-free {
+    height: 100%;
+    width: 100%;
+	background: black
+}
+
+/* Ocultar MOD
+.sandbox.sheet .label-free	{
+	visibility: hidden
+}
+
+.sandbox.sheet .flexblock-left input[type=text].input-min {
+    visibility: hidden;
+}
+*/
+.roll-free {
+    visibility: hidden;
+}
+
+/*Tamaño Sheet*/
+.sandbox.sheet table{
+    width:-webkit-fill-available;
+}
+.sandbox.sheet table.table-free{
+    height:100%;
+    width:100%;
+	width:-webkit-fill-available;
+}
+
+.sandbox.sheet .window-content  {
+		background: url(fondo.jpg) repeat;
+}
+
+.tab-next.tab-next	{
+	color: white;
+}
+
+.tab-prev.tab-prev	{
+	color: white;
+}
+/*
+.fa-exclamation-circle:before {
+    content:url(icono.png);
+}
+*/
