@@ -1,0 +1,16 @@
+{"key":"Foundry-LuckForRolls.incrementalCritValue","value":"0","_id":"00AE7tiCJ3KEiNzD"}
+{"_id":"0H1kCJ3qgiOM6RBZ","key":"sandbox.customStyle","value":"\"worlds/degenesis-world/style/Degenesis_style.css\""}
+{"key":"pdfoundry.DataVersion","value":"\"v0.6.0\"","_id":"9ZC6Rgqz2PJN6ReI"}
+{"_id":"BXcDAKcgMB6bPIgr","key":"core.moduleConfiguration","value":"{\"dice-calculator\":false,\"dice-so-nice\":false,\"ernies-modern-layout\":false,\"game-icons-net\":false,\"babele\":false,\"chat-images\":false,\"DancingLights\":false,\"df-scene-enhance\":false,\"dragupload\":false,\"easy-exports\":false,\"forien-quest-log\":false,\"forien-unidentified-items\":false,\"hide-gm-rolls\":false,\"music-assist\":false,\"one-journal\":false,\"pdfoundry\":false,\"pointer\":false,\"simplefog\":false,\"switch-to-chat\":false,\"tacticalmap-free\":false,\"torch\":false,\"MiniMap\":false,\"music-d20-sampler\":false,\"SoundBoard\":false,\"tweakplaylist\":false,\"BatchPermissionsByFolder\":false,\"searchanywhere\":false,\"adventuremusic\":false,\"journal-links\":false,\"deselection\":false,\"maestro\":false,\"mess\":false,\"playlist_import\":false,\"popout\":false,\"special-dice-roller\":false,\"ctx-convenience\":false,\"scaleGrid\":false,\"multilevel-tokens\":false}"}
+{"key":"Foundry-LuckForRolls.defaultCritChance","value":"1","_id":"FI20MSZ9fj01FmLs"}
+{"_id":"PXrLIWwZxDrSkvTy","key":"searchanywhere.settingCommand","value":"\"always\""}
+{"key":"sandbox.showSimpleRoller","value":"false","_id":"dQZ9Kjvw74BBg0qe"}
+{"key":"sandbox.showADV","value":"false","_id":"h0DqdsnpIu9DKcTV"}
+{"_id":"jOXlDkfqlkCZkJI2","key":"sandbox.initKey","value":"\"\""}
+{"key":"Foundry-LuckForRolls.critValue","value":"6","_id":"n1PDjOwjLsLMBEk5"}
+{"key":"sandbox.showLastRoll","value":"false","_id":"n6PHSgmDZ2EBxlvn"}
+{"key":"Foundry-LuckForRolls.critCap","value":"100","_id":"qQop0VNcAHG0e21O"}
+{"_id":"u8WkJ50975eyLqeo","key":"sandbox.tokenOptions","value":"true"}
+{"_id":"viVyCk99hxKbyFwC","key":"sandbox.showDC","value":"false"}
+{"key":"core.permissions","value":"{\"BROADCAST_AUDIO\":[2,3,4],\"BROADCAST_VIDEO\":[2,3,4],\"ACTOR_CREATE\":[3,4],\"DRAWING_CREATE\":[2,3,4],\"ITEM_CREATE\":[3,4],\"FILES_BROWSE\":[2,3,4],\"FILES_UPLOAD\":[3,4],\"JOURNAL_CREATE\":[2,3,4],\"MACRO_SCRIPT\":[1,2,3,4],\"MESSAGE_WHISPER\":[1,2,3,4],\"SETTINGS_MODIFY\":[3,4],\"SHOW_CURSOR\":[1,2,3,4],\"SHOW_RULER\":[1,2,3,4],\"TEMPLATE_CREATE\":[1,2,3,4],\"TOKEN_CREATE\":[3,4],\"TOKEN_CONFIGURE\":[2,3,4],\"WALL_DOORS\":[1,2,3,4]}","_id":"wkg3ejO55BCneosQ"}
+{"key":"Foundry-LuckForRolls.observedDie","value":"6","_id":"xN1W2bwUvtAyqMSR"}
