@@ -276,3 +276,16 @@ select {
 .sandbox.sheet .window-content  {
 		background: url(fondo.jpg) repeat;
 }
+
+.tab-next.tab-next	{
+	color: white;
+}
+
+.tab-prev.tab-prev	{
+	color: white;
+}
+/*
+.fa-exclamation-circle:before {
+    content:url(icono.png);
+}
+*/
