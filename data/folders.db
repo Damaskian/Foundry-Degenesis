@@ -9,6 +9,7 @@
 {"_id":"3yiikEIRxBGqq3aH","name":"Agentes","type":"Item","sort":3400000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"_id":"6XlSZS5u0GhbvuxY","name":"Comunicación","type":"Item","sort":3992188,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Combate","type":"Item","sort":5500000,"flags":{},"parent":"GTztXr5eNzvTBeC2","color":"","_id":"8dJgutYWVKnBU5ap"}
+{"name":"Rangos","type":"Item","sort":8200000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"8iH4wkZNtSSJEOQe"}
 {"_id":"9aGACz5UA2gnbiqx","name":"_CCC","type":"Item","sort":500000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"name":"Hab_Agilidad","type":"Item","sort":1600000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"9g5Aub1204nD2I4f"}
 {"_id":"9zpAqVNjYXNiXkQy","name":"Comunes","type":"Item","sort":100000,"flags":{},"parent":"aJKfHbURsJd0360L","color":""}
