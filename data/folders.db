@@ -1,3 +1,4 @@
+{"_id":"0AQRs0q3s3qv55j4","name":"Cronista","type":"Item","sort":100000,"flags":{},"parent":"PeYK8m4TOM7DvRwc","color":""}
 {"name":"Discos Solares","type":"Item","sort":8000000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"0HdAvoH5FYpo7ZCR"}
 {"name":"Hab_Carisma","type":"Item","sort":1700000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"1EU6B9tBAGUmMMRa"}
 {"_id":"1bsUOevWyj3QDXtL","name":"Compendio NPCs","type":"Item","sort":125000,"flags":{},"parent":null,"color":"#0000a0"}
@@ -8,6 +9,7 @@
 {"_id":"3mVhxoILN26JPtm3","name":"Armas de Proyectiles","type":"Item","sort":4112500,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":""}
 {"_id":"3yiikEIRxBGqq3aH","name":"Agentes","type":"Item","sort":3400000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"_id":"6XlSZS5u0GhbvuxY","name":"Comunicación","type":"Item","sort":3992188,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
+{"name":"Potenciales","type":"Item","sort":8400000,"flags":{},"parent":"0AQRs0q3s3qv55j4","color":"","_id":"6t0TTfgiuTWSqg7V"}
 {"name":"Combate","type":"Item","sort":5500000,"flags":{},"parent":"GTztXr5eNzvTBeC2","color":"","_id":"8dJgutYWVKnBU5ap"}
 {"name":"Rangos","type":"Item","sort":8200000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"8iH4wkZNtSSJEOQe"}
 {"_id":"9aGACz5UA2gnbiqx","name":"_CCC","type":"Item","sort":500000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
@@ -16,7 +18,7 @@
 {"_id":"A55vqG6aqAt27FWP","name":"_Plantilla NPC","type":"Item","sort":100000,"flags":{},"parent":null,"color":"#c0c0c0"}
 {"_id":"AQ2zyYS5p7Iz7vvE","name":"Escudos","type":"Item","sort":3750000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"_id":"Am86dpvZjpJMTHH1","name":"Protecciones","type":"Item","sort":3500000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
-{"name":"Spitalianos","type":"Item","sort":6500000,"flags":{},"parent":"PeYK8m4TOM7DvRwc","color":"","_id":"CAhhVLWLDvN2pu67"}
+{"_id":"CAhhVLWLDvN2pu67","name":"Spitalianos","type":"Item","sort":0,"flags":{},"parent":"PeYK8m4TOM7DvRwc","color":""}
 {"name":"_Origen","type":"Item","sort":2200000,"flags":{},"parent":"qLjZPYFCRM8W4UcB","color":"","_id":"DW98M0Iqn15wCJnT"}
 {"name":"Transporte","type":"Item","sort":7700000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"DwtkMsDrqvMVUGtR"}
 {"name":"Defensa Pasiva","type":"Item","sort":6900000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"ETZvdI3Cl8lbwNQB"}
@@ -45,6 +47,7 @@
 {"_id":"SR1kEog81yiTvBqh","name":"Armas Sónicas","type":"Item","sort":3300000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Explosivos","type":"Item","sort":6100000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":"","_id":"SiHpwVuJlAjAIYc3"}
 {"_id":"T3YjrzyIDa10Hfzr","name":"_cItems","type":"Item","sort":900000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
+{"_id":"TGwrgS1Mx2eegBnA","name":"Equipo médico","type":"Item","sort":8300000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":""}
 {"_id":"TcI9ZhUKtHJUobxd","name":"Talismanes/Insignias","type":"Item","sort":3984375,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Armas NPCs","type":"Item","sort":5000000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":"","_id":"VtR6E2RFiFydVM7C"}
 {"name":"Hab_Psique","type":"Item","sort":1900000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"WFyX3PF9fpDkJV1W"}
