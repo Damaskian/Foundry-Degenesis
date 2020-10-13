@@ -1,5 +1,5 @@
 {
-  "name": "degenesis-world",
+  "name": "degenesis-world-sp",
   "title": "Degenesis",
   "description": "",
   "version": "1.0.0",
@@ -13,9 +13,9 @@
   "authors": [],
   "keywords": [],
   "socket": false,
-  "url": "https://github.com/Damaskian/Foundry-Degenesis",
-  "manifest": "https://raw.githubusercontent.com/Damaskian/Foundry-Degenesis/main/world.json",
-  "download": "https://github.com/Damaskian/Foundry-Degenesis/archive/main.zip",
+  "url": "https://github.com/Damaskian/Foundry-Degenesis-SP",
+  "manifest": "https://raw.githubusercontent.com/Damaskian/Foundry-Degenesis-SP/main/world.json",
+  "download": "https://github.com/Damaskian/Foundry-Degenesis-SP/archive/main.zip",
   "license": "",
   "readme": "",
   "bugs": "",
@@ -27,5 +27,5 @@
   "nextSession": "",
   "availability": 0,
   "unavailable": false,
-  "id": "degenesis-world"
+  "id": "degenesis-world-sp"
 }
