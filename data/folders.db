@@ -3,7 +3,7 @@
 {"name":"Hab_Carisma","type":"Item","sort":1700000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"1EU6B9tBAGUmMMRa"}
 {"_id":"1bsUOevWyj3QDXtL","name":"Compendio NPCs","type":"Item","sort":125000,"flags":{},"parent":null,"color":"#0000a0"}
 {"_id":"20puoeykTC7KKrmj","name":"_Información básica","type":"Item","sort":300000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
-{"name":"Especialidad NPCs","type":"Item","sort":5300000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":"","_id":"29Tmt3alBrX3tMtD"}
+{"_id":"29Tmt3alBrX3tMtD","name":"Especialidad NPCs","type":"Item","sort":400000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
 {"_id":"2h7okQHx8xvXVKvV","name":"Compendio","type":"Item","sort":200000,"flags":{},"parent":null,"color":"#0000a0"}
 {"name":"Protagonistas","type":"Actor","sort":200000,"flags":{},"parent":null,"color":"","_id":"3IvIbGYXBOgjS1G4"}
 {"_id":"3mVhxoILN26JPtm3","name":"Armas de Proyectiles","type":"Item","sort":4112500,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":""}
@@ -43,13 +43,13 @@
 {"_id":"QcFF7rcIIqWtRaBu","name":"Módulos","type":"Item","sort":3968750,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Hab_Cuerpo","type":"Item","sort":1500000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"QiAN5FqJ6DIY5BTu"}
 {"name":"Atributos y Habilidades","type":"Item","sort":2800000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"RDvsvJ3T8uHJYNnj"}
-{"name":"Equipo Especial NPCs","type":"Item","sort":5200000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":"","_id":"Rw720XJoyBISRemD"}
+{"_id":"Rw720XJoyBISRemD","name":"Equipo Especial NPCs","type":"Item","sort":200000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
 {"_id":"SR1kEog81yiTvBqh","name":"Armas Sónicas","type":"Item","sort":3300000,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
 {"name":"Explosivos","type":"Item","sort":6100000,"flags":{},"parent":"xrTuUsvCUGH0qIGq","color":"","_id":"SiHpwVuJlAjAIYc3"}
 {"_id":"T3YjrzyIDa10Hfzr","name":"_cItems","type":"Item","sort":900000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"_id":"TGwrgS1Mx2eegBnA","name":"Equipo médico","type":"Item","sort":8300000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":""}
 {"_id":"TcI9ZhUKtHJUobxd","name":"Talismanes/Insignias","type":"Item","sort":3984375,"flags":{},"parent":"2h7okQHx8xvXVKvV","color":""}
-{"name":"Armas NPCs","type":"Item","sort":5000000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":"","_id":"VtR6E2RFiFydVM7C"}
+{"_id":"VtR6E2RFiFydVM7C","name":"Armas NPCs","type":"Item","sort":300000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
 {"name":"Hab_Psique","type":"Item","sort":1900000,"flags":{},"parent":"M8VFyHzIqSufD2ME","color":"","_id":"WFyX3PF9fpDkJV1W"}
 {"name":"Inventario","type":"Item","sort":7100000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"WsQ0lfOZMosg9Yhb"}
 {"_id":"XMKHWxxhYD1WTmdN","name":"Cualidades de las Protecciones","type":"JournalEntry","sort":100000,"flags":{},"parent":"KbZJzMYwssNKfjUk","color":""}
@@ -86,7 +86,7 @@
 {"_id":"r5uz3j0m4eBeS86k","name":"_Panels","type":"Item","sort":200000,"flags":{},"parent":"t1epVGb7aPHRDMpM","color":""}
 {"name":"Defensa Activa","type":"Item","sort":3300000,"flags":{},"parent":"r5uz3j0m4eBeS86k","color":"","_id":"syNado6rCXpwyl7i"}
 {"_id":"t1epVGb7aPHRDMpM","name":"_Plantilla PJ","type":"Item","sort":0,"flags":{},"parent":null,"color":"#c0c0c0"}
-{"_id":"tHQtAKiuQlKbCA3a","name":"Protecciones NPCs","type":"Item","sort":5100000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
+{"_id":"tHQtAKiuQlKbCA3a","name":"Protecciones NPCs","type":"Item","sort":100000,"flags":{},"parent":"krShvnKj9aDJZNMX","color":""}
 {"name":"Pernoctar","type":"Item","sort":7600000,"flags":{},"parent":"MsRHu0lkHCXoZsZP","color":"","_id":"tMNjyxA8GQTnRZ2N"}
 {"name":"P. Escudos","type":"Item","sort":7000000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"vW0WIqu3oOscpFS8"}
 {"name":"P. Potenciales","type":"Item","sort":3800000,"flags":{},"parent":"T3YjrzyIDa10Hfzr","color":"","_id":"wk02pRRPhNNeHoJs"}

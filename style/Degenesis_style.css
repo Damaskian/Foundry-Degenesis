@@ -18,14 +18,11 @@ body {
   background: url(fondosidebar.jpg);
 }
 
-/* Character sheet background and Font Color */
+/* Character sheet background and Font Color*/
 .window-app .window-content {
   color: #000000;
-  /* Replace here with a URL from the ewb to an image you like for a background */
-  /* Image should be sized on about 720p and not be too heavy */
   background: white;
 }
-
 /* Character sheet input text background color */
 .sandbox.sheet .flexblock-left input{
   font-family: Avenir, sans-serif;
